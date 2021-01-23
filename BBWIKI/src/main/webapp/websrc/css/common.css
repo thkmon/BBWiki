@@ -1,0 +1,94 @@
+body,div,p,td {
+	font-family: verdana, tahoma;
+	font-size: 11pt;
+	line-height: 24px;
+}
+
+.basic_button {
+	border: 1px solid #AAAAAA;
+	text-align: center;
+	height: 26px;
+	cursor: pointer;
+	
+	color: #000000;
+	background-color: #FFFFFF;
+	
+	font-family: verdana, tahoma;
+	font-size: 10pt;
+}
+
+.basic_button:disabled {
+	border: 1px solid #AAAAAA;
+	color: #AAAAAA;
+	background-color: #CCCCCC;
+}
+
+.basic_button:HOVER {
+	border: 1px solid #AAAAAA;
+	text-align: center;
+	height: 26px;
+	cursor: pointer;
+	
+	color: #FFFFFF;
+	background-color: #000000;
+	
+	font-family: verdana, tahoma;
+	font-size: 10pt;
+}
+
+::selection {
+    background: #FFFF55;
+    color: #0000FF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #FFFF55;
+    color: #0000FF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+   background: #FFFF55;
+    color: #0000FF;
+    text-shadow: none;
+}
+
+
+a:link {text-decoration: underline; color: #0000FF;}
+a:visited {text-decoration: none; color: #0000FF;}
+a:active {text-decoration: none; color: #000055;}
+a:hover {text-decoration: underline; color: #000055;} 
+
+
+.doc_box {
+	padding: 5px;
+}
+
+.hidden {
+	display: none;
+}
+
+.w100per {
+	width: 100%;
+}
+
+.w99per {
+	width: 99%;
+}
+
+.w96per {
+	width: 96%;
+}
+
+.border1 {
+	border: 1px solid #000000;
+}
+
+.lfloat {
+	float: left;
+}
+
+.rfloat {
+	float: right;
+}
