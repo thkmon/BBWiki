@@ -134,7 +134,7 @@
 	</c:if>
 	<br>
 	<% if (StringUtil.parseString(request.getAttribute("readMode")).equals("1")) { %>
-		<table class="w100per" style="max-width: 600px;">
+		<table class="w100per" style="max-width: 600px; word-break: break-all;">
 			<tr>
 				<td class="w100per doc_box border1">${textObj}</td>
 			</tr>
