@@ -1,6 +1,15 @@
-CREATE DATABASE ddoc;
+use mysql;
+create user hdwk@localhost identified by 'mypassword';
+create user hdwk@'%' identified by 'mypassword';
 
-USE ddoc;
+create database hdwk default character set utf8;
+
+grant all privileges ON hdwk.* TO hdwk@'%';
+flush privileges;
+
+--
+
+USE hdwk;
 
 CREATE TABLE BBWK_DOC (
   DOC_ID VARCHAR(50) PRIMARY KEY,
